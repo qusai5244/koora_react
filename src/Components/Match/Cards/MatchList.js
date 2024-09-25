@@ -4,7 +4,8 @@ import SingleMatch from './SingleMatch.js';
 import '../../Match/match.css';
 
 const App = () => (
-  <div className='match-container'>
+  <div className='matchs-container'>
+      <SingleMatch />
       <SingleMatch />
       <SingleMatch />
       <SingleMatch />
