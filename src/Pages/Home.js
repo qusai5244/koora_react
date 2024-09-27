@@ -1,4 +1,5 @@
 import MatchList from '../Components/Match/Cards/MatchList';
+import NewsList from '../Components/News/Cards/NewsList';
 import { Divider } from 'antd';
 
 const App = () => {
@@ -15,7 +16,7 @@ const App = () => {
         <div style={{ display: 'flex',flexDirection:'column' , justifyContent: 'center', alignItems: 'center'}}>
             <h1>الأخبار</h1>
             <div style={{ width: '100%' }}>
-              <MatchList />
+              <NewsList />
             </div>
             <Divider/>
         </div>
