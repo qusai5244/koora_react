@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; // Use Routes instead of Switch
 import { Button, Layout, Menu, theme } from 'antd';
+import AppNavBar from './Layout/AppNavBar';
 // import home page 
 import Home from './Pages/Home';
 import './App.css';
@@ -17,10 +18,11 @@ const App = () => {
     <Router>
       <Layout style={{ minHeight: '100vh' }}>
         <Layout>
+          <AppNavBar />
           <Content
             style={{
-              margin: '24px 16px',
-              padding: 24,
+              margin: '50px 16px 15px 16px',
+              padding: 20,
               minHeight: 280,
               background: colorBgContainer,
               borderRadius: borderRadiusLG,

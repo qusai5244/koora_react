@@ -5,11 +5,19 @@ const App = () => {
   return (
     <>
         <div style={{ display: 'flex',flexDirection:'column' , justifyContent: 'center', alignItems: 'center'}}>
-            <h1>مباريات اليوم</h1>
+            <h1>المباريات </h1>
             <div style={{ width: '100%' }}>
               <MatchList />
             </div>
-            <Divider dashed />
+            <Divider/>
+        </div>
+
+        <div style={{ display: 'flex',flexDirection:'column' , justifyContent: 'center', alignItems: 'center'}}>
+            <h1>الأخبار</h1>
+            <div style={{ width: '100%' }}>
+              <MatchList />
+            </div>
+            <Divider/>
         </div>
     </>
   );
