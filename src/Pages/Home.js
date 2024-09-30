@@ -18,7 +18,7 @@ const App = () => {
             <div style={{ width: '100%' }}>
               <NewsList />
             </div>
-            <Divider/>
+            {/* <Divider/> */}
         </div>
     </>
   );

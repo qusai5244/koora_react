@@ -8,7 +8,7 @@ import image from '../../../imgs/image.jpg';
 
 export default function NewsCard() {
   return (
-    <Card sx={{ minWidth: 300, maxWidth:400 }}>
+    <Card sx={{ minWidth: 300 }}     style={{ margin: '10px 0', boxShadow: '0 0 10px rgba(0, 0, 0, 0.1)'}}>
       <CardMedia
         component="img"
         alt="green iguana"
@@ -30,7 +30,8 @@ export default function NewsCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">تفاصيل اكثر</Button>
+        <Button size="small">تفاصيل اكثر</Button>        
+        <Button size="small">مشاركة</Button>
       </CardActions>
     </Card>
   );

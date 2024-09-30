@@ -4,6 +4,9 @@ import NewsCard from './NewsCard';
 const App = () => (
   <div className='matchs-container'>
       <NewsCard />
+      <NewsCard />
+      <NewsCard />
+      <NewsCard />
   </div>
 );
 
